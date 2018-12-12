@@ -92,7 +92,6 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 				itr->x = itr->x + dist_x(gen);
 				itr->y = itr->y + velocity*sin(itr->theta)*delta_t;
 				itr->y = itr->y + dist_y(gen);
-
 		}
 	}	
 }
